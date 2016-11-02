@@ -14,6 +14,7 @@ body h1
 	border-color: rgb(255, 153, 0);
 	transition:all 0.3s ease;
 	box-shadow: 3px 3px black;
+	margin-bottom: 35px;
 		}
 
 
@@ -27,6 +28,7 @@ body h1
         background:rgb(255, 153, 0);
         border-radius: 100px;
         box-shadow: 10px 17px 24px 15px rgba(181,73,27,1);
+        font-weight: bold;
 }
 
 a {
@@ -88,3 +90,16 @@ nav{
 	margin:0;
 	border-radius: 10px;
 	}
+
+footer{
+	text-align: center;
+	border-bottom: 1px solid black; 
+	border-top: 1px solid black;
+}
+
+
+/*section article art1{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+   /* -moz-column-count: 3; /* Firefox */
+   /* column-count: 3;
+/*} podzial na kolumny - to do*/
