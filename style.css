@@ -1,0 +1,90 @@
+body{
+	/*background-color: rgb(0, 102, 128);*/
+	background-image: url("70743-OD11UT-341.jpg");
+	font-family: 'Taviraj', serif;
+	}
+
+body h1
+		{
+	text-align: center;
+	text-shadow: 3px 3px 2px rgb(255, 153, 0);
+	font-size: 3em;
+	border: 5px double;
+	border-radius: 100px;
+	border-color: rgb(255, 153, 0);
+	transition:all 0.3s ease;
+	box-shadow: 3px 3px black;
+		}
+
+
+.intro
+{
+        opacity:0.8;
+}
+.intro:hover
+{
+        opacity:1;
+        background:rgb(255, 153, 0);
+        border-radius: 100px;
+        box-shadow: 10px 17px 24px 15px rgba(181,73,27,1);
+}
+
+a {
+	text-decoration: none;
+  }
+
+a:link
+{
+	color:black;
+}
+
+a:visited
+{
+	color:black;
+
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: black;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+	font-weight: bold;
+
+}
+
+a:active
+{
+color: rgb(0, 77, 153);
+}
+
+
+nav ul.button
+{
+	list-style-type: none;
+
+}
+
+.button li
+		{
+			display: inline-block;
+						
+			margin-left: 0px;
+			padding-left: 10px;
+			list-style: none;
+			min-width: 40%
+			color: black;
+			font-size: 18px;
+			font-family: 'Taviraj', serif;
+			border-left: 1px solid black;
+
+		}
+
+nav{
+	background-color: rgb(255, 153, 0);
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	margin:0;
+	border-radius: 10px;
+	}
