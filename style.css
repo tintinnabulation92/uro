@@ -97,7 +97,23 @@ footer{
 	border-top: 1px solid black;
 }
 
+.art1 img{
+	float: left;
+	margin: 30px;
+}
 
+.art2 img{
+	float: right;
+	margin: 30px;
+}
+
+.art3 img{
+	float: left;
+	margin: 30px;
+}
+.clear{
+	clear: both;
+}
 /*section article art1{
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
    /* -moz-column-count: 3; /* Firefox */
